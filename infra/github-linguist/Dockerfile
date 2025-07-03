@@ -1,6 +1,5 @@
 FROM ruby:3.3-slim
 
-# Install build dependencies and github-linguist
 RUN set -e && \
     apt-get update && \
     apt-get install -y --no-install-recommends \
